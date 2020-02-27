@@ -96,6 +96,7 @@ public class Faker {
     private final AquaTeenHungerForce aquaTeenHungerForce;
     private final ProgrammingLanguage programmingLanguage;
     private final City city;
+    private final Basketball basketball;
 
     public Faker() {
         this(Locale.ENGLISH);
@@ -201,6 +202,7 @@ public class Faker {
         this.aquaTeenHungerForce = new AquaTeenHungerForce(this);
         this.programmingLanguage = new ProgrammingLanguage(this);
         this.city = new City(this);
+        this.basketball = new Basketball(this);
     }
 
     /**
@@ -633,6 +635,10 @@ public class Faker {
 
     public City city() {
         return city;
+    }
+
+    public Basketball basketball() {
+        return basketball;
     }
 
     public String resolve(String key) {
