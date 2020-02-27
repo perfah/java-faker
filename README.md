@@ -75,6 +75,7 @@ Fakers
 * Color
 * Commerce
 * Company
+* City
 * Crypto
 * DateAndTime
 * Demographic
