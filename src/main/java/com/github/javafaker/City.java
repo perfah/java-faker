@@ -2,11 +2,9 @@ package com.github.javafaker;
 
 public class City {
     private final Faker faker;
-    private final Country country;
 
     protected City(Faker faker) {
         this.faker = faker;
-        this.country = new Country(faker);
     }
 
     public String name(String country) {
