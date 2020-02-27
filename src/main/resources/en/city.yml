@@ -1,0 +1,4 @@
+en:
+  faker:
+    city:
+      SWE: [Stockholm, Test, Göteborg, abc, gdf, gdfgdtr, tert]
