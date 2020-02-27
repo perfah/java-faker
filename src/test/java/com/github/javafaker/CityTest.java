@@ -11,22 +11,20 @@ public class CityTest extends AbstractFakerTest {
 
     @Test
     public void testName() {
-        String name = faker.city().name("SWE");
+        String name = faker.city().name("Sweden");
 
         assertThat(name, isStringWithContents());
 
-       // assertThat(name, matchesRegularExpression("/[A-Za-zÄÖÜäöüß -]{2,}/"));
-
-        //assertThat(name, matchesRegularExpression("([\\w'-]+ ?)+"));
     }
 
-    // @Test
-    // public void testCountryAndCityName() {
-    //     String name = faker.city().countryAndCityName();
+    @Test
+    public void testCountryAndCityName() {
+        String name = faker.city().countryAndCityName();
 
-    //     assertThat(name, isStringWithContents());
+        assertThat(name, isStringWithContents());
 
-    //     assertThat(name, matchesRegularExpression("([\\w'-]+ ?)+"));
-    // }
+    }
+
+
 
 }
