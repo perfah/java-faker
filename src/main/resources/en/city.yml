@@ -2,7 +2,7 @@ en:
   faker:
     city:
       Afghanistan: ["Zaranj","Taloqan,Shīnḏanḏ","Shibirghān,Shahrak","Sar-e Pul","Sang-e Chārak","Aībak,Rustāq","Qarqīn,Qarāwul","Pul-e Khumrī","Paghmān","Nahrīn", "Maymana", "Mehtar Lām", "Mazār-e Sharīf"]
-      Albania: ["Sarandë" , "Kukës", "Korçë", "Gjirokastër", "Elbasan, "Burrel"]
+      Albania: ["Sarandë" , "Kukës", "Korçë", "Gjirokastër", "Elbasan", "Burrel"]
       Algeria: ["Algiers", "Oran", "Constantine"]
       Andorra: ["les Escaldes", "Andorra la Vella"]
       Angola: ["Saurimo", "Lucapa", "Luau" , "Uíge", "Soio", "Nzeto", "N’dalatando", "Mbanza Congo", "Malanje", "Luanda", "Caxito"]
