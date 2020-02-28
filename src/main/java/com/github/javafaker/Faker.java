@@ -97,6 +97,7 @@ public class Faker {
     private final ProgrammingLanguage programmingLanguage;
     private final City city;
     private final Basketball basketball;
+    private final Coin coin;
 
     public Faker() {
         this(Locale.ENGLISH);
@@ -203,6 +204,7 @@ public class Faker {
         this.programmingLanguage = new ProgrammingLanguage(this);
         this.city = new City(this);
         this.basketball = new Basketball(this);
+        this.coin = new Coin(this);
     }
 
     /**
@@ -639,6 +641,10 @@ public class Faker {
 
     public Basketball basketball() {
         return basketball;
+    }
+
+    public Coin coin(){
+        return coin;
     }
 
     public String resolve(String key) {

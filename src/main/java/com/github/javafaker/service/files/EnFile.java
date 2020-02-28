@@ -175,7 +175,8 @@ public class EnFile {
             "world_cup.yml",
             "world_of_warcraft.yml",
             "yoda.yml",
-            "zelda.yml");
+            "zelda.yml",
+            "coin.yml");
 
     // files where the search path can't be derived from the filename
     private static List<EnFile> FILES_WITH_A_DIFFERENT_PATH = Arrays.asList(
