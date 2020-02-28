@@ -4,7 +4,7 @@ public class Basketball {
     
     private final Faker faker;
 
-    public Basketball(Faker faker) {
+    protected Basketball(Faker faker) {
         this.faker = faker;
     }
 

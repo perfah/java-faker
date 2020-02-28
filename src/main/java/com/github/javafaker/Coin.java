@@ -4,7 +4,7 @@ public class Coin {
 
     private final Faker faker;
 
-    public Coin(Faker faker) {
+    protected Coin(Faker faker) {
         this.faker = faker;
     }
 
