@@ -97,10 +97,8 @@ public class Faker {
     private final ProgrammingLanguage programmingLanguage;
     private final City city;
     private final Basketball basketball;
-    private final Compass compass;
     private final BojackHorseman bojackHorseman;
     private final Coin coin;
-
 
     public Faker() {
         this(Locale.ENGLISH);
@@ -207,7 +205,6 @@ public class Faker {
         this.programmingLanguage = new ProgrammingLanguage(this);
         this.city = new City(this);
         this.basketball = new Basketball(this);
-        this.compass = new Compass(this);
         this.bojackHorseman = new BojackHorseman(this);
         this.coin = new Coin(this);
 
@@ -649,10 +646,6 @@ public class Faker {
         return basketball;
     }
 
-    public Compass compass() {
-        return compass;
-    }
-  
     public BojackHorseman bojackHorseman(){
       return bojackHorseman;
     }
