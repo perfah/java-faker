@@ -77,6 +77,7 @@ Fakers
 * Coin
 * Color
 * Commerce
+* Compass
 * Company
 * City
 * Crypto
